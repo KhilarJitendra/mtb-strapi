@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "herosectionHeadline": {
+      "type": "string",
+      "required": true
+    },
+    "herosectionParagraph": {
+      "type": "string"
+    },
+    "ctaTitle": {
+      "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "collections": {
+      "type": "json"
+    },
+    "newsLetter": {
+      "type": "string"
+    },
+    "heroVideo": {
+      "type": "string",
+      "required": true
+    },
+    "categories": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
